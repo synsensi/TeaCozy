@@ -1,0 +1,103 @@
+/* html/docment root styles*/
+html {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center
+}
+
+/* header/nav styles */
+header {
+    background-color: black;
+    position: fixed;
+    display: block;
+    height: 69px;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    top: 0%;
+}
+
+.logo { 
+    float: left;
+    margin-left: 10px;
+    height: 50px;
+}
+
+nav {
+    float: right;
+     
+}
+
+nav a {
+    margin: 10px;
+    text-decoration: underline;
+}
+
+/* main styles */
+.mission {
+    height: 700px;
+    width: 1200px;
+    margin: auto;
+    display: block;
+    position: center;
+    background-image: url("images/img-mission-background.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.teas section {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1000px;
+}
+
+.tea {
+    margin: 10px;
+}
+
+.tea img {
+    height: 200px;
+    width: 300px;
+}
+
+.mission section {
+    margin-top: 350px;
+    width: 100%;
+    display: inline-block;
+    background-color: black;
+}
+
+.locations {
+    height: 500px;
+    width: auto;
+    background-image: url("images/img-locations-background.jpg");
+    background-size: cover;
+    
+}
+
+.locations section {
+    display: flex;
+    justify-content: center
+}
+
+.location {
+    justify-content: center;
+    background-color: black;
+    margin: 15px 40px 15px 40px;
+    height: 300px;
+    width: 300px; 
+    
+}
+
+address {
+    height: 200px;
+}
+
+footer {
+    float: left;
+    margin-left: 10px;
+}
